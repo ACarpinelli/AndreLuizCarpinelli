@@ -4,7 +4,6 @@ import seaborn as sns
 from datetime import datetime
 
 ecommerce_data = pd.read_csv('Ecommerce_DBS.csv')
-
 ecommerce_data.columns = ecommerce_data.columns.str.strip()
 
 # Verificar valores ausentes
